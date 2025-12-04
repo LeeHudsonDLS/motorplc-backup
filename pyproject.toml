@@ -12,7 +12,7 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
 ]
 description = "Tool to create a live backup of a dls plc based motion controller"
-dependencies = [] # Add project dependencies here, e.g. ["click", "numpy"]
+dependencies = ["cothread"] # Add project dependencies here, e.g. ["click", "numpy"]
 dynamic = ["version"]
 license.file = "LICENSE"
 readme = "README.md"

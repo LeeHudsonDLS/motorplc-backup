@@ -18,6 +18,7 @@ def main(args: Sequence[str] | None = None) -> None:
         version=__version__,
     )
     parser.parse_args(args)
+    print("Here")
 
 
 if __name__ == "__main__":
