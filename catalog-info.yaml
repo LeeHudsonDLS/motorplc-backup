@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: motorplc-backup
+  title: motorplc-backup
+  description: Tool to create a live backup of a dls plc based motion controller
+spec:
+  type: library
+  lifecycle: experimental
+  owner: accelerator-controls
